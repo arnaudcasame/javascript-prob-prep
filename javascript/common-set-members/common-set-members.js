@@ -28,3 +28,24 @@ export const commonSetMembers = function(arr1, arr2){
     }
     return result;
 }
+
+
+export const commonSetElements = function(arr1, arr2){
+    const commonElements = [];
+    let i = 0;
+    let j = 0;
+
+    while (i < arr1.length && j < arr2.length) {
+        if (arr1[i] === arr2[j]) {
+            commonElements.push(arr1[i]);
+            i++;
+            j++;
+        } else if (arr1[i] < arr2[j]) {
+            i++;
+        } else {
+            j++;
+        }
+    }
+
+    return commonElements;
+}
