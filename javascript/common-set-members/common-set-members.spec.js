@@ -1,5 +1,4 @@
-import { commonSetMembers } from "./common-set-members";
-import { commonSetElements } from "./common-set-members";
+import { commonSetMembers , commonSetElements } from "./common-set-members";
 
 export const common = 
 describe('Common set Members', function(){
