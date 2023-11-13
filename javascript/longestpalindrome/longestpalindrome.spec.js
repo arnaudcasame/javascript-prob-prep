@@ -2,20 +2,24 @@ import { longestPalindrome } from './longestpalindrome';
 
 export const longest =
     describe('LongestPalindrome', () => {
-        test('Longest Palindrome (babad) Should be Equal to bab', () => {
-            expect(longestPalindrome('babad')).toEqual('bab');
+        test('Longest Palindrome (babad) Should be Equal to bab or aba', () => {
+            expect(longestPalindrome('babad') === 'bab' || longestPalindrome('babad') === 'aba').toBeTruthy();
         });
 
         test('Longest Palindrome (cbbd) Should be Equal to bb', () => {
             expect(longestPalindrome('cbbd')).toEqual('bb');
         });
 
-        xtest('Longest Palindrome (bbbbb) Should be Equal to 1', () => {
-            expect(longestPalindrome('bbbbb')).toEqual(1);
+        test('Longest Palindrome (bbbbb) Should be Equal to bbbbb', () => {
+            expect(longestPalindrome('bbbbb')).toEqual('bbbbb');
         });
 
-        xtest('Longest Palindrome (pwwkew) Should be Equal to 3', () => {
-            expect(longestPalindrome('pwwkew')).toEqual(3);
+        test('Longest Palindrome (pwwkew) Should be Equal to ww', () => {
+            expect(longestPalindrome('pwwkew')).toEqual('ww');
+        });
+
+        test('Longest Palindrome (eabcb) Should be Equal to bcb', () => {
+            expect(longestPalindrome('eabcb')).toEqual('bcb');
         });
 
     });
