@@ -13,7 +13,6 @@ export const isUnique = (s) => {
     let i = 0, j = i+1;
     while(i < s.length - 1){
         if(s[i] === s[j]) {
-            console.log(s[i], s[j]);
             return false;
         }
         if(j === s.length - 1){
