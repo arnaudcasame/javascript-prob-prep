@@ -22,7 +22,9 @@
   },
   "dependencies": {},
   "scripts": {
-    "test": "jest --noStackTrace test",
+    "exercism": "jest --noStackTrace exercism.test",
+    "cci": "jest --noStackTrace cci.test",
+    "leetcode": "jest --noStackTrace leetcode.test",
     "watch": "jest --watch ./*",
     "lint": "eslint ."
   }
