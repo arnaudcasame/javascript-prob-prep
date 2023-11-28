@@ -56,7 +56,7 @@ export const romanToIntDynamic = function(s) {
         M:1000
     }
     for (const key in s) {
-        console.log(key, s.charAt(key), s.charAt((key*1)+1))
+        // console.log(key, s.charAt(key), s.charAt((key*1)+1))
         const current = dict[s.charAt(key)];
         const next = dict[s.charAt((key*1)+1)];
         if(current < next){
