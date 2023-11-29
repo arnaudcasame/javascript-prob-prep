@@ -27,4 +27,35 @@ export const longest =
             expect(longestPalindrome('eabcb')).toEqual('bcb');
         });
 
+        test('Longest Palindrome (11111111111) Should be Equal to 111111111', () => {
+            const input = "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111";
+            expect(longestPalindromeBF(input)).toEqual(input);
+            expect(longestPalindrome(input)).toEqual(input);
+        });
+
+        test('Longest Palindrome (ac) Should be Equal to a', () => {
+            // expect(longestPalindromeBF(input)).toEqual(input);
+            expect(longestPalindrome('ac')).toEqual('a');
+        });
+
+        test('Longest Palindrome (a) Should be Equal to a', () => {
+            // expect(longestPalindromeBF(input)).toEqual(input);
+            expect(longestPalindrome('a')).toEqual('a');
+        });
+
+        test('Longest Palindrome (bb) Should be Equal to bb', () => {
+            expect(longestPalindromeBF('bb')).toEqual('bb');
+            expect(longestPalindrome('bb')).toEqual('bb');
+        });
+
+        test('Longest Palindrome (abcda) Should be Equal to a', () => {
+            expect(longestPalindromeBF('bb')).toEqual('bb');
+            expect(longestPalindrome('abcda')).toEqual('a');
+        });
+
+        test('Longest Palindrome (abcda) Should be Equal to a', () => {
+            expect(longestPalindromeBF('bb')).toEqual('bb');
+            expect(longestPalindrome('abcdasdfghjkldcba')).toEqual('a');
+        });
+
     });

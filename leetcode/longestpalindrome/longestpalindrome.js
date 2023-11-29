@@ -30,16 +30,31 @@ export const longestPalindromeBF = function(s) {
  */
 export const longestPalindrome = function(s) {
     let palindrome = '';
-    let s1 = '';
-    let s2 = '';
-    const sr = s.split('').reverse().join('');
-    for (let j = 0; j < s.length; j++) {
-        const s3 = s.slice(0, sr.length - j);
-        const s4 = sr.slice(j); //[( - 1) - j]
-        const s5 = s.slice(j, s.length - j);
-        s1 += s[j];
-        s2 += sr[j];
-        console.log(j + ')', s1, s2, s3, s4, s5);
+    if(s.length === 1){
+        palindrome = s;
+        return palindrome;
+    }else if(s.length === 2 && s[0] !== s[1]){
+        palindrome = s[0];
+        return palindrome;
+    }
+    for (let i = 0; i < s.length; i++) {
+        let j = s.length > 17 ? i+1 : i;
+        while(j < s.length) {
+            const word = s.slice(i, j+1);
+            if(check(word) && palindrome.length < word.length){
+                palindrome = word;
+            }
+            j++;
+        }
     }
     return palindrome;
 };
+
+function check(word){
+    for (let i = 0; i < word.length; i++) {
+        if(word[i] !== word[word.length - (i+1)]) {
+            return false
+        }
+    }
+    return true;
+}
