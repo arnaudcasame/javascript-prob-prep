@@ -65,7 +65,7 @@ export const longestCommonPrefixI = function(strs) {
             }
         }
     }
-    console.log('common', common)
+    // console.log('common', common)
     return common;
 };
 
@@ -80,6 +80,6 @@ export const longestCommonPrefixII = function(strs) {
             common = common.substring(0, common.length - 1)
         }
     }
-    console.log('common', common)
+    // console.log('common', common)
     return common;
 };
