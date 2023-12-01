@@ -9,3 +9,4 @@ import { mergeTwoLists_ } from "./leetcode/merge-two-lists-21/merge-two-lists.sp
 import { removeDuplicates_ } from "./leetcode/remove-duplicates-from-sorted-array-26/remove-duplicates-sorted-array.spec";
 import { searchInsert_ } from "./leetcode/search-insert-position-35/search-insert-position.spec";
 import { removeElement_ } from "./leetcode/remove-element-27/remove-element.spec";
+import { strStr_ } from "./leetcode/find-1st-index-of-1st-occurence-28/find-1st-index-of-1st-occurence.spec";
