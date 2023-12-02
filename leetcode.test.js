@@ -10,3 +10,4 @@ import { removeDuplicates_ } from "./leetcode/remove-duplicates-from-sorted-arra
 import { searchInsert_ } from "./leetcode/search-insert-position-35/search-insert-position.spec";
 import { removeElement_ } from "./leetcode/remove-element-27/remove-element.spec";
 import { strStr_ } from "./leetcode/find-1st-index-of-1st-occurence-28/find-1st-index-of-1st-occurence.spec";
+import { lengthOfLastWord_ } from "./leetcode/length-last-word-58/length-last-word.spec";
