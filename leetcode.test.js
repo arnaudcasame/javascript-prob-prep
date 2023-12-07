@@ -13,3 +13,4 @@ import { strStr_ } from "./leetcode/find-1st-index-of-1st-occurence-28/find-1st-
 import { lengthOfLastWord_ } from "./leetcode/length-last-word-58/length-last-word.spec";
 import { plusOne_ } from "./leetcode/plus-one-66/plus-one.spec";
 import { merge_ } from "./leetcode/merge-sorted-array-88/merge-sorted-array.spec";
+import { isPalindrome_ } from "./leetcode/valid-palindrome-125/valid-palindrome.spec";
