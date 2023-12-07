@@ -19,6 +19,5 @@ export const urlify = function(s, trueLength){
             index--;
         }
     }
-    console.log(s)
     return s.join('');
 }; 
