@@ -19,3 +19,27 @@ export const isPalindrome = function(s) {
     }
     return true;
 };
+
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
+export const isPalindromeOp = function(s) {
+    let j = 0;
+    let i = 0;
+    while (i < s.length) {
+        const charL = s[i];
+        const charR = s[s.length - j - 1];
+        if(charL.match(/[A-Za-z0-9]/i) &&  charR.match(/[A-Za-z0-9]/i) && charL.toLowerCase() !== charR.toLowerCase()){
+            return false;
+        }else if(!charL.match(/[A-Za-z0-9]/i)){
+            i++;
+        }else if(!charR.match(/[A-Za-z0-9]/i)) {
+            j++;
+        }else{
+            i++;
+            j++;
+        }
+    }
+    return true;
+};
