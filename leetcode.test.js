@@ -14,3 +14,4 @@ import { lengthOfLastWord_ } from "./leetcode/length-last-word-58/length-last-wo
 import { plusOne_ } from "./leetcode/plus-one-66/plus-one.spec";
 import { merge_ } from "./leetcode/merge-sorted-array-88/merge-sorted-array.spec";
 import { isPalindrome_ } from "./leetcode/valid-palindrome-125/valid-palindrome.spec";
+import { mergeAlternately_ } from "./leetcode/merge-strings-alternately-1768/merge-strings-alternately.spec";
