@@ -4,3 +4,4 @@ import { common } from "./cci/common-set-members/common-set-members.spec";
 import { urlify_ } from "./cci/urlify/urlify.spec";
 import { isPermutatedPalindrome_ } from "./cci/palindrome-permutation/palindrome-permutation.spec";
 import "./cci/one-away/one-away.spec";
+import "./cci/string-compression/string-compressiion.spec";
