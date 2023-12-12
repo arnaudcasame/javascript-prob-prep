@@ -16,3 +16,4 @@ import { merge_ } from "./leetcode/merge-sorted-array-88/merge-sorted-array.spec
 import { isPalindrome_ } from "./leetcode/valid-palindrome-125/valid-palindrome.spec";
 import { mergeAlternately_ } from "./leetcode/merge-strings-alternately-1768/merge-strings-alternately.spec";
 import { findSpecialInteger_ } from "./leetcode/element-appearing-25plus-in-array-1287/element-appearing-25plus-in-array.spec";
+import "./leetcode/group-anagrams-49/group-anagrams.spec";
