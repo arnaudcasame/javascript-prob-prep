@@ -18,3 +18,4 @@ import { mergeAlternately_ } from "./leetcode/merge-strings-alternately-1768/mer
 import { findSpecialInteger_ } from "./leetcode/element-appearing-25plus-in-array-1287/element-appearing-25plus-in-array.spec";
 import "./leetcode/group-anagrams-49/group-anagrams.spec";
 import "./leetcode/maximum-product-two-elements-in-array-1464/maximum-product.spec";
+import "./leetcode/top-K-frequent-elements-347/top-K-frequent-elements.spec";
