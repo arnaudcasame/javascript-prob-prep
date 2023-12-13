@@ -6,8 +6,16 @@
   },
   "overrides": [
     {
-      "files": [".meta/proof.ci.js", ".meta/exemplar.js", "*.spec.js"],
-      "excludedFiles": ["custom.spec.js"],
+      "files": [
+        "*.spec.js"
+      ],
+      "rules": {
+        "import/no-default-export": "off",
+        "import/no-unresolved": "off"
+      },
+      "excludedFiles": [
+        "custom.spec.js"
+      ],
       "extends": "@exercism/eslint-config-javascript/maintainers"
     }
   ]
