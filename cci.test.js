@@ -5,3 +5,4 @@ import { urlify_ } from "./cci/urlify/urlify.spec";
 import { isPermutatedPalindrome_ } from "./cci/palindrome-permutation/palindrome-permutation.spec";
 import "./cci/one-away/one-away.spec";
 import "./cci/string-compression/string-compressiion.spec";
+import "./cci/string-rotation/string-rotation.spec";
