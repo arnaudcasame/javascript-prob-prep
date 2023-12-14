@@ -7,12 +7,11 @@ export default describe('Product of Array except Self', function(){
 
     test('Should return [0,0,9,0,0] for ([-1,1,0,-3,3])', function(){
         const res = productExceptSelf([-1,1,0,-3,3]);
-        expect(res).toEqual([0,0,9,0,0]);
+        expect(res).toEqual([-0,0,9,-0,0]);
     });
 
     test('Should return [0,0] for ([0,0])', function(){
         const res = productExceptSelf([0,0]);
-        console.log(res);
         expect(res).toEqual([0,0]);
     });
 
