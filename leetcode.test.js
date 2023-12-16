@@ -21,3 +21,4 @@ import "./leetcode/maximum-product-two-elements-in-array-1464/maximum-product.sp
 import "./leetcode/top-K-frequent-elements-347/top-K-frequent-elements.spec";
 import "./leetcode/product-of-array-except-self-238/product-of-array.spec";
 import "./leetcode/difference-between-ones-zeros-2482/diff-between-ones-zeros.spec";
+import "./leetcode/longest-consecutive-sequence-128/longest-consecutive-sequence.spec";
