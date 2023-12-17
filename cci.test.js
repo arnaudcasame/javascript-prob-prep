@@ -1,3 +1,5 @@
+import console from "console"
+global.console = console
 import { is_unique } from "./cci/is-unique/is-unique.spec";
 import { CheckPermutation } from "./cci/check-permutation/check-permutation.spec";
 import { common } from "./cci/common-set-members/common-set-members.spec";
@@ -6,3 +8,4 @@ import { isPermutatedPalindrome_ } from "./cci/palindrome-permutation/palindrome
 import "./cci/one-away/one-away.spec";
 import "./cci/string-compression/string-compressiion.spec";
 import "./cci/string-rotation/string-rotation.spec";
+import './cci/remove-duplicates-linked-list-2.1/remove-dups.spec';
