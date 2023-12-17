@@ -1,3 +1,5 @@
+import { ListNode } from '../../data-structures/list-node';
+
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
@@ -34,11 +36,6 @@ export var mergeTwoLists = function(list1, list2) {
     }
     return tempNode.next;
 };
-
-export function ListNode(val, next) {
-    this.val = (val===undefined ? 0 : val)
-    this.next = (next===undefined ? null : next)
-}
 
 function createListFromArr(arr){
     arr = arr.reverse();

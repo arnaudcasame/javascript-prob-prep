@@ -1,4 +1,5 @@
-import { mergeTwoLists, ListNode } from './merge-two-lists';
+import { mergeTwoLists } from './merge-two-lists';
+import { ListNode } from "../../data-structures/list-node";
 
 
 export const mergeTwoLists_ = 
