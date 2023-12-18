@@ -3,6 +3,7 @@ import { ListNode as Node } from "./list-node";
 export function LinkedList(){
     this.head = null;
     this.tail = null;
+    this.current = null;
 }
 
 /**
@@ -43,6 +44,15 @@ LinkedList.prototype.removeNode = function(v){
     }
     current.next = current.next.next;
 }
+
+LinkedList.prototype.next = function(){
+    if(!this.current){
+        this.current = this.head;
+    }else{
+        this.current = this.current.next;
+    }
+    return this.current;
+};
 
 LinkedList.from = function(array){
     const link = new LinkedList();
