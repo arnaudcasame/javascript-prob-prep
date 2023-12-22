@@ -28,3 +28,4 @@ import "./leetcode/consecutive-characters-1446/consecutive-characters.spec";
 import "./leetcode/single-number-136/single-number.spec";
 import "./leetcode/maximum-product-difference-2-pairs-1913/maximum-product-2-pairs.spec";
 import "./leetcode/image-smoother-661/image-smoother.spec.js";
+import './leetcode/wildest-vertical-area-1637/wildest-vertical-area-1637.spec.js'
