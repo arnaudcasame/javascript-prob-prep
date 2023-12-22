@@ -16,7 +16,7 @@ export const maxScore = function(s) {
         if(char*1 === 0){
             l++;
         }else{
-            r++;
+            r--;
         }
         i++;
         max = Math.max(max, r+l)
