@@ -30,3 +30,4 @@ import "./leetcode/maximum-product-difference-2-pairs-1913/maximum-product-2-pai
 import "./leetcode/image-smoother-661/image-smoother.spec.js";
 import './leetcode/wildest-vertical-area-1637/wildest-vertical-area-1637.spec';
 import './leetcode/maximum-score-1422/maximum-score.spec';
+import './leetcode/path-crossing-1496/path-crossing.spec';
