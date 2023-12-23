@@ -3,17 +3,7 @@
  * @return {boolean}
  */
 export const isValid = function(s) {
-    const stack = new Stack();
-    for (const p of s) {
-        if(isOpenTerm(p)){
-            stack.push(p);
-        }else{
-            if(stack.isEmpty() || !matches(stack.pop(), p)) {
-                return false;
-            }
-        }
-    }
-    return stack.isEmpty();
+    
 };
 
 function isOpenTerm(p) {
