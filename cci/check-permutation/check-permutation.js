@@ -10,25 +10,4 @@
  * 4) Two strings that are permutations should have the same characters, but in different orders. Can you make the orders the same?
  */
 
-export function CheckPermHT (s1, s2) {
-    // if(s1.length !== s2.length || s1 === s2){
-    //     return false;
-    // }
-    let obj = {};
-    let i = 0;
-    while (i < s1.length) {
-        obj[s1[i]] = obj[s1[i]] ? obj[s1[i]] + 1 : 1;
-        obj[s2[i]] = obj[s2[i]] ? obj[s2[i]] + 1 : 1;
-        i++;
-    }
-
-    i = 0;
-    while (i < s2.length) {
-        if((obj[s2[i]] % 2) !== 0){
-            return false;
-        }
-        i++;
-    }
-
-    return true;
-}
+export function CheckPermHT (s1, s2) {}

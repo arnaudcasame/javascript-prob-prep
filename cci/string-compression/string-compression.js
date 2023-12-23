@@ -5,21 +5,4 @@
  * the original string. You can assume the string has only uppercase and lowercase letters (a - z).
  */
 
-export const compressString = function(s){
-    let res = '';
-    let count = 0;
-    let currLetter;
-    let i = 0;
-    while(i < s.length){
-        if(s[i] === currLetter){
-            count += 1;
-        }else{
-            res += currLetter ? `${currLetter}${count}` : '';
-            currLetter = s[i];
-            count = 1;
-        }
-        i++;
-    }
-    res += currLetter ? `${currLetter}${count}` : '';
-    return res;
-};
+export const compressString = function(s){};

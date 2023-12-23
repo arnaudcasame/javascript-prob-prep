@@ -6,46 +6,7 @@
  * @param {Array<number>} arr2 Second set of numbers
  * @return {number[]} The common elements of both sets
  */
-export const commonSetMembers = function(arr1, arr2){
-    const result = [];
-    let j = 0;
-    for (let i = 0; i < arr2.length; i++) {
-        while(j < arr1.length) {
-            const num1 = arr1[j]
-            const num2 = arr2[i];
-            if(num2 > num1) {
-                j++;
-            }else if(num2 < num1){
-                break;
-            }
-            // console.log(num1, num2);
-            if(num1 === num2) {
-                result.push(num2);
-                j = i;
-                break;
-            }
-        }
-    }
-    return result;
-}
+export const commonSetMembers = function(arr1, arr2){}
 
 
-export const commonSetElements = function(arr1, arr2){
-    const commonElements = [];
-    let i = 0;
-    let j = 0;
-
-    while (i < arr1.length && j < arr2.length) {
-        if (arr1[i] === arr2[j]) {
-            commonElements.push(arr1[i]);
-            i++;
-            j++;
-        } else if (arr1[i] < arr2[j]) {
-            i++;
-        } else {
-            j++;
-        }
-    }
-
-    return commonElements;
-}
+export const commonSetElements = function(arr1, arr2){}

@@ -9,21 +9,7 @@
  * @param {string} s the string to evaluate
  * @return {boolean} true of false
  */
-export const isUnique = (s) => {
-    let i = 0, j = i+1;
-    while(i < s.length - 1){
-        if(s[i] === s[j]) {
-            return false;
-        }
-        if(j === s.length - 1){
-            i++;
-            j = i+1;
-        }else{
-            j++;
-        }
-    }
-    return true;
-};
+export const isUnique = (s) => {};
 
 
 /** Hash Table version
@@ -31,16 +17,4 @@ export const isUnique = (s) => {
  * @param {string} s the string to evaluate
  * @return {boolean} true of false
  */
-export const isUniqueHT = (s) => {
-    let i = 0;
-    const bucket = {}
-    while(i < s.length){
-        if(bucket[s[i]]){
-            return false;
-        }else{
-            bucket[s[i]] = 1;
-        }
-        i++;
-    }
-    return true;
-};
+export const isUniqueHT = (s) => {};
