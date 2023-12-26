@@ -1,20 +1,26 @@
-import { ListNode } from "../../../data-structures/list-node";
+import { LinkedList } from "../../../data-structures/linked-list";
 /** 
  * Returns the Kth element to Last of the array
  * @param {number[]} arr 
  * @return {number[]}
  */
 export const kthToLast = function(arr, kth){
-    let head;
-    let current;
-    for (const num of arr) {
-        if(!head){
-            head = new ListNode(num);
-            current = head;
-        }else{
-            current.next = new ListNode(num);
-        }
+    const ll = LinkedList.from(arr);
+    let scanNode = ll.head;
+    let i = 1;
+    arr = [];
+    while(scanNode){
+        scanNode = scanNode.next;
+        i++;
     }
-    console.log(current)
+    let listNode = ll.head;
+    while(listNode){
+        if(i-1 <= kth){
+            arr.push(listNode.val)
+        }
+        listNode = listNode.next;
+        i--;
+    }
+    // console.log(listNode, kth);
     return arr
 }
