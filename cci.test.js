@@ -13,3 +13,4 @@ import "./cci/linked-list/2.3-delete-middle-node/delete-middle-node.spec";
 import './cci/linked-list/2.4-partition/partition.spec';
 import './cci/linked-list/2.5-sum-lists/sum-lists.spec';
 import './cci/linked-list/2.6-palindrome/palindrome.spec';
+import './cci/linked-list/2.7-intersection/intersection.spec';
