@@ -9,3 +9,4 @@ import "./cci/one-away/one-away.spec";
 import "./cci/string-compression/string-compressiion.spec";
 import "./cci/string-rotation/string-rotation.spec";
 import './cci/remove-duplicates-linked-list-2.1/remove-dups.spec';
+import "./cci/linked-list/2.3-delete-middle-node/delete-middle-node.spec";
