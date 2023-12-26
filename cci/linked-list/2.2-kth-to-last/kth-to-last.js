@@ -16,11 +16,11 @@ export const kthToLast = function(arr, kth){
     let listNode = ll.head;
     while(listNode){
         if(i-1 <= kth){
-            arr.push(listNode.val)
+            break;
         }
         listNode = listNode.next;
         i--;
     }
     // console.log(listNode, kth);
-    return arr
+    return LinkedList.toArray(listNode);
 }
