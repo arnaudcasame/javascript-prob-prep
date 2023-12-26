@@ -64,7 +64,7 @@ LinkedList.from = function(array){
 
 LinkedList.toArray = function(link){
     const arr = new Array();
-    let curr = link.head
+    let curr = link.head ?? link;
     while(curr !== null){
         arr.push(curr.val);
         curr = curr.next;
