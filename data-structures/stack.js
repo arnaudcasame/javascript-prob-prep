@@ -14,4 +14,8 @@ export class Stack {
     isEmpty(){
         return this.data_.length === 0;
     }
+
+    getTop(){
+        return this.data_[this.data_.length-1];
+    }
 }
