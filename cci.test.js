@@ -1,3 +1,5 @@
+import { expect } from "chai";
+global.expect = expect;
 import "./cci/is-unique/is-unique.spec.js";
 import "./cci/check-permutation/check-permutation.spec.js";
 import "./cci/common-set-members/common-set-members.spec.js";
