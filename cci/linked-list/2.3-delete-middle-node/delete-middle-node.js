@@ -1,5 +1,5 @@
-import { ListNode } from "../../../data-structures/list-node";
-import { LinkedList } from '../../../data-structures/linked-list';
+import { ListNode } from "../../../data-structures/list-node.js";
+import { LinkedList } from '../../../data-structures/linked-list.js';
 export const deleteMiddleNode = function(arr, target){
     // Building the ListNode structure
     let head;

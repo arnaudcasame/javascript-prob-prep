@@ -1,4 +1,4 @@
-import { LinkedList } from "../../../data-structures/linked-list";
+import { LinkedList } from "../../../data-structures/linked-list.js";
 /** 
  * Returns the Kth element to Last of the array
  * @param {number[]} arr 

@@ -1,4 +1,4 @@
-import { Stack } from "../../../data-structures/stack";
+import { Stack } from "../../../data-structures/stack.js";
 export const palindrome = function(list, length){
     const stack = new Stack();
     const mid = Math.floor(length/2) + length%2;

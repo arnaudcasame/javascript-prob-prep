@@ -1,5 +1,5 @@
-import { palindrome } from "./palindrome";
-import { ListNode } from "../../../data-structures/list-node";
+import { palindrome } from "./palindrome.js";
+import { ListNode } from "../../../data-structures/list-node.js";
 
 export default describe('Palindrome #LinkedList', function(){
     it('Should return true for (amanaplanacanalpanama)', function(){

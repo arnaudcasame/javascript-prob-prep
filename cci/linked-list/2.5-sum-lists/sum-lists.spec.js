@@ -1,5 +1,5 @@
-import { sumLists, sumListsForward } from "./sum-lists";
-import { ListNode } from "../../../data-structures/list-node";
+import { sumLists, sumListsForward } from "./sum-lists.js";
+import { ListNode } from "../../../data-structures/list-node.js";
 
 export default describe('Sum Lists (Linked-List)', function(){
     it('Should Return (2)(1)(9)', function(){

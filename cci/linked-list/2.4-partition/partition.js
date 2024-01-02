@@ -1,4 +1,4 @@
-import { ListNode } from "../../../data-structures/list-node";
+import { ListNode } from "../../../data-structures/list-node.js";
 export const partition = function(arr, target){
     let head = ListNode.fromArray(arr);
     // Solution implementation
