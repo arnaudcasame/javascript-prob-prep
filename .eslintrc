@@ -1,8 +1,13 @@
 {
   "root": true,
-  "extends": "@exercism/eslint-config-javascript",
+  "extends": ["eslint:recommended", "google"],
   "env": {
-    "jest": true
+    "node": true,
+    "mocha": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2015
   },
   "overrides": [
     {
@@ -16,7 +21,7 @@
       "excludedFiles": [
         "custom.spec.js"
       ],
-      "extends": "@exercism/eslint-config-javascript/maintainers"
+      "extends": ["eslint:recommended", "google"]
     }
   ]
 }
