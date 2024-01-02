@@ -1,4 +1,4 @@
-import { ListNode as Node } from "./list-node";
+import { ListNode as Node } from "./list-node.js";
 
 export function LinkedList(){
     this.head = null;

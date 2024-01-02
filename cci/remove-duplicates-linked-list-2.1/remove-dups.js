@@ -1,4 +1,4 @@
-import { LinkedList } from "../../data-structures/linked-list";
+import { LinkedList } from "../../data-structures/linked-list.js";
 
 export const removeDups = function(list){};
 

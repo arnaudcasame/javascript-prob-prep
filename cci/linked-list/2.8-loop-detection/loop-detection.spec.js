@@ -1,7 +1,7 @@
-import { loopDetection } from "./loop-detection";
+import { loopDetection } from "./loop-detection.js";
 
 export default describe('Loop Detection (Corrupt LinkedList)', function(){
-    xtest('title', function(){
+    xit('title', function(){
         expect(loopDetection([])).toEqual(0);
     });
 });
