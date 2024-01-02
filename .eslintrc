@@ -12,11 +12,12 @@
   "overrides": [
     {
       "files": [
-        "*.spec.js"
+        "*.js"
       ],
       "rules": {
         "import/no-default-export": "off",
-        "import/no-unresolved": "off"
+        "import/no-unresolved": "off",
+        "indent": ["error", 4]
       },
       "excludedFiles": [
         "custom.spec.js"
