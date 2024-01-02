@@ -1,15 +1,15 @@
-import { deleteMiddleNode } from "./delete-middle-node";
+import { deleteMiddleNode } from "./delete-middle-node.js";
 
 export default describe('Delete Middle Node', function(){
-    xtest('title', function(){
+    xit('title', function(){
         expect(deleteMiddleNode([])).toEqual([]);
     });
 
-    xtest('title', function(){
+    xit('title', function(){
         expect(deleteMiddleNode([])).toEqual([]);
     });
 
-    xtest('title', function(){
+    xit('title', function(){
         expect(deleteMiddleNode([])).toEqual([]);
     });
 });

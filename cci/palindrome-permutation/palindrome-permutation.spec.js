@@ -1,12 +1,11 @@
-import { isPermutatedPalindrome } from "./palindrome-permutation";
+import { isPermutatedPalindrome } from "./palindrome-permutation.js";
 
-export const isPermutatedPalindrome_ = 
-describe('Palindrome Permutation', () => {
-    xtest('Should return true for (Tact Coa)', () => {
+export default describe('Palindrome Permutation', () => {
+    xit('Should return true for (Tact Coa)', () => {
         expect(isPermutatedPalindrome('Tact Coa')).toEqual(true);
     });
     
-    xtest('Should return true for (Atct Coa)', () => {
+    xit('Should return true for (Atct Coa)', () => {
         expect(isPermutatedPalindrome('Atct Coa')).toEqual(true);
     });
 });

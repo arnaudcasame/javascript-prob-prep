@@ -1,15 +1,15 @@
-import { kthToLast } from "./kth-to-last";
+import { kthToLast } from "./kth-to-last.js";
 
 export default describe('Return Kth to Last', function(){
-    xtest('Should return ', function(){
+    xit('Should return ', function(){
         expect(kthToLast([])).toEqual([]);
     });
 
-    xtest('Should return ', function(){
+    xit('Should return ', function(){
         expect(kthToLast([])).toEqual([]);
     });
 
-    xtest('Should return ', function(){
+    xit('Should return ', function(){
         expect(kthToLast([])).toEqual([]);
     });
 });

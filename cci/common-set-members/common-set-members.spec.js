@@ -1,29 +1,28 @@
-import { commonSetMembers , commonSetElements } from "./common-set-members";
+import { commonSetMembers , commonSetElements } from "./common-set-members.js";
 
-export const common = 
-describe('Common set Members', function(){
+export default describe('Common set Members', function(){
     let A;
     let B;
-    beforeAll(function(){
+    before(function(){
         A = [13, 27, 35, 40, 49, 55, 59, 60];
         B = [17, 35, 39, 40, 55, 58, 60, 62];
     })
-    xtest('Should return the elements in common of both sets (A<-->B)', function(){
+    xit('Should return the elements in common of both sets (A<-->B)', function(){
         const result = commonSetMembers(A, B);
         expect(result).toEqual([35, 40, 55, 60]);
     })
 
-    xtest('Should return the elements in common of both sets  (B<-->A)', function(){
+    xit('Should return the elements in common of both sets  (B<-->A)', function(){
         const result = commonSetMembers(B, A);
         expect(result).toEqual([35, 40, 55, 60]);
     })
 
-    xtest('Should return the elements in common of both sets chatGPT (A<-->B)', function(){
+    xit('Should return the elements in common of both sets chatGPT (A<-->B)', function(){
         const result = commonSetElements(A, B);
         expect(result).toEqual([35, 40, 55, 60]);
     })
 
-    xtest('Should return the elements in common of both sets chatGPT  (B<-->A)', function(){
+    xit('Should return the elements in common of both sets chatGPT  (B<-->A)', function(){
         const result = commonSetElements(B, A);
         expect(result).toEqual([35, 40, 55, 60]);
     })

@@ -1,11 +1,11 @@
-import { CheckPermHT } from './check-permutation';
+import { CheckPermHT } from './check-permutation.js';
 
-export const CheckPermutation = describe('Check Permutation', () => {
-    xtest('Should return true for wifbwedi <---> iwfedbiw', () => {
+export default describe('Check Permutation', () => {
+    xit('Should return true for wifbwedi <---> iwfedbiw', () => {
         expect(CheckPermHT('wifbwedi', 'iwfedbiw')).toEqual(true);
     });
 
-    xtest('Should return false for vbsdiuefref <---> diuhbguhwoh', () => {
+    xit('Should return false for vbsdiuefref <---> diuhbguhwoh', () => {
         expect(CheckPermHT('vbsdiuefref', 'diuhbguhwoh')).toEqual(false);
     });
 });
