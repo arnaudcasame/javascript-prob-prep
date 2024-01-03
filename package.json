@@ -15,6 +15,7 @@
     "cci": "mocha cci.test",
     "leetcode": "jest --noStackTrace leetcode.test",
     "watch": "jest --watch ./*",
+    "play": "node ./helpers/playground.js",
     "lint": "eslint ."
   },
   "devDependencies": {
