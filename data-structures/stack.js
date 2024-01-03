@@ -49,3 +49,63 @@ export class Stack {
         return this.data_[this.data_.length-1];
     }
 }
+
+import {ListNode} from './list-node.js';
+/**
+ * Represents a Stack class that implements
+ * the data structure's methods:
+ * push, pop, getTop, isEmpty
+ * @class
+ */
+export class StackLL {
+    /**
+     * StackLL object Initializer
+     */
+    constructor() {
+        this.top;
+    }
+
+    /**
+     * Pushes the item received as argument
+     * to the top of the StackLL
+     * @param {T} item the item to push to
+     * top of the StackLL
+     */
+    push(item) {
+        if (!this.top) {
+            this.top = new ListNode(item);
+        } else {
+            this.top = new ListNode(item, this.top);
+        }
+    }
+
+    /**
+     * Removes the top item from the StackLL
+     * @return {T} item that previously was
+     * on the top of the StackLL
+     */
+    pop() {
+        const current = this.top;
+        this.top = this.top.next;
+        current.next = null;
+        return current;
+    }
+
+    /**
+     * Returns true if and only if the
+     * StackLL is Empty
+     * @return {boolean}
+     */
+    isEmpty() {
+        return !this.top;
+    }
+
+    /**
+     * Returns the item that is currently
+     * on the top of the StackLL
+     * @return {T}
+     */
+    getTop() {
+        return this.top;
+    }
+}
