@@ -16,3 +16,4 @@ import './cci/linked-list/2.7-intersection/intersection.spec.js';
 import './cci/linked-list/2.8-loop-detection/loop-detection.spec.js';
 import './cci/stack-queues/3.1-three-in-one/three-in-one.spec.js';
 import './cci/stack-queues/3.2-stack-min/stack-min.spec.js';
+import './cci/stack-queues/3.3-stack-of-plates/stack-of-plates.spec.js';
