@@ -18,3 +18,4 @@ import './cci/stack-queues/3.1-three-in-one/three-in-one.spec.js';
 import './cci/stack-queues/3.2-stack-min/stack-min.spec.js';
 import './cci/stack-queues/3.3-stack-of-plates/stack-of-plates.spec.js';
 import './cci/stack-queues/3.4-queue-via-stacks/queue-via-stacks.spec.js';
+import './cci/stack-queues/3.5-sort-stack/sort-stack.spec.js';
