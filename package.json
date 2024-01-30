@@ -13,7 +13,7 @@
   "scripts": {
     "exercism": "jest --noStackTrace exercism.test",
     "cci": "mocha cci.test",
-    "leetcode": "jest --noStackTrace leetcode.test",
+    "leetcode": "mocha leetcode.test",
     "watch": "jest --watch ./*",
     "play": "node ./helpers/playground.js",
     "lint": "eslint ."
