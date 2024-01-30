@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable no-unused-vars */
 import console from "console"
 global.console = console
@@ -32,3 +33,4 @@ import './leetcode/wildest-vertical-area-1637/wildest-vertical-area-1637.spec';
 import './leetcode/maximum-score-1422/maximum-score.spec';
 import './leetcode/path-crossing-1496/path-crossing.spec';
 import './leetcode/search-in-rotated-sorted-array-33/search-rotated-sorted-array.spec';
+import './leetcode/evaluate-reverse-polish-notation-150/evaluate-reverse-polish-notation.spec.js';
