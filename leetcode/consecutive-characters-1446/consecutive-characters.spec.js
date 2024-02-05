@@ -1,11 +1,11 @@
-import { maxPower } from "./consecutive-characters";
+import {maxPower} from './consecutive-characters.js';
 
-export default describe('Consecutive Characters', function(){
-    test('Should return 2 for (leetcode)', function(){
+export default describe('Consecutive Characters', function() {
+    it('Should return 2 for (leetcode)', function() {
         expect(maxPower('leetcode')).toEqual(2);
     });
 
-    test('Should return 5 for (abbcccddddeeeeedcba)', function(){
+    it('Should return 5 for (abbcccddddeeeeedcba)', function() {
         expect(maxPower('abbcccddddeeeeedcba')).toEqual(5);
     });
 });

@@ -1,11 +1,11 @@
-import { isPathCrossing } from "./path-crossing";
+import {isPathCrossing} from './path-crossing.js';
 
-export default describe('Path Crossing', function(){
-    test('Should return false for ("NES")', function(){
-        expect(isPathCrossing("NES")).toEqual(false);
+export default describe('Path Crossing', function() {
+    it('Should return false for ("NES")', function() {
+        expect(isPathCrossing('NES')).toEqual(false);
     });
 
-    test('Should return true for ("NESWW")', function(){
-        expect(isPathCrossing("NESWW")).toEqual(true);
+    it('Should return true for ("NESWW")', function() {
+        expect(isPathCrossing('NESWW')).toEqual(true);
     });
 });

@@ -2,10 +2,22 @@
  * @param {string[]} strs
  * @return {string}
  */
-export var longestCommonPrefix = function(strs) {};
+export const longestCommonPrefix = function(strs) {
+    return '';
+};
 
+/**
+ * @param {string[]} strs
+ * @return {string}
+ */
+export const longestCommonPrefixI = function(strs) {
+    return '';
+};
 
-export const longestCommonPrefixI = function(strs) {};
-
-
-export const longestCommonPrefixII = function(strs) {};
+/**
+ * @param {string[]} strs
+ * @return {string}
+ */
+export const longestCommonPrefixII = function(strs) {
+    return '';
+};

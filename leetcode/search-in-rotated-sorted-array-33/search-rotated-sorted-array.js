@@ -4,5 +4,5 @@
  * @return {number}
  */
 export const search = function(nums, target) {
-    
+    return 0;
 };

@@ -1,8 +1,15 @@
 /**
- * @param {number[][]} grid
+* @param {number[][]} grid
  * @return {number[][]}
  */
-export const onesMinusZeros = function(grid) {};
+export const onesMinusZeros = function(grid) {
+    return [];
+};
 
-
-export const onesMinusZerosO = function(grid) {};
+/**
+* @param {number[][]} grid
+ * @return {number[][]}
+ */
+export const onesMinusZerosO = function(grid) {
+    return [];
+};

@@ -2,6 +2,14 @@
  * @param {number} x
  * @return {boolean}
  */
-export const numberIsPalindrome = function(x) {};
+export const numberIsPalindrome = function(x) {
+    return false;
+};
 
-export const numberIsPalindromeNoString = function(x) {};
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+export const numberIsPalindromeNoString = function(x) {
+    return false;
+};

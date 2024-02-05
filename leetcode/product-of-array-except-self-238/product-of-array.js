@@ -2,4 +2,6 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-export const productExceptSelf = function(nums) {};
+export const productExceptSelf = function(nums) {
+    return [];
+};

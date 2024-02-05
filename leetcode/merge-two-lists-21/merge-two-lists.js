@@ -1,4 +1,4 @@
-import { ListNode } from '../../data-structures/list-node';
+import {ListNode} from '../../data-structures/list-node.js';
 
 /**
  * Definition for singly-linked list.
@@ -12,6 +12,8 @@ import { ListNode } from '../../data-structures/list-node';
  * @param {ListNode} list2
  * @return {ListNode}
  */
-export var mergeTwoLists = function(list1, list2) {};
+export const mergeTwoLists = function(list1, list2) {
+    return new ListNode();
+};
 
 function createListFromArr(arr){}

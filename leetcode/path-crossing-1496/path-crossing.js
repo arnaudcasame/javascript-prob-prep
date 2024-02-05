@@ -2,4 +2,6 @@
  * @param {string} path
  * @return {boolean}
  */
-export const isPathCrossing = function(path) {}
+export const isPathCrossing = function(path) {
+    return false;
+};

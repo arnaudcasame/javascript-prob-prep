@@ -3,4 +3,6 @@
  * @param {string} s
  * @return {number}
  */
-export const lengthOfLongestSubstring = function(s) {};
+export const lengthOfLongestSubstring = function(s) {
+    return 0;
+};

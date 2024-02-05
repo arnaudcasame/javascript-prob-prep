@@ -1,16 +1,15 @@
-import { isValid } from "./valid-parentheses";
+import {isValid} from './valid-parentheses.js';
 
-export const isValid_ = 
-describe('Valid Parentheses', function(){
-    test('Should return true when passing \'()\'', function(){
+export default describe('Valid Parentheses', function() {
+    it('Should return true when passing \'()\'', function() {
         expect(isValid('()')).toEqual(true);
     });
 
-    test('Should return false when passing \'(]\'', function(){
+    it('Should return false when passing \'(]\'', function() {
         expect(isValid('(]')).toEqual(false);
     });
 
-    test('Should return true when passing \'()[]{}\'', function(){
+    it('Should return true when passing \'()[]{}\'', function() {
         expect(isValid('()[]{}')).toEqual(true);
     });
 });

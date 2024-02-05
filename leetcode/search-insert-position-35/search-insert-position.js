@@ -3,4 +3,6 @@
  * @param {number} target
  * @return {number}
  */
-export const searchInsert = function(nums, target) {};
+export const searchInsert = function(nums, target) {
+    return 0;
+};

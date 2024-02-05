@@ -2,4 +2,6 @@
  * @param {number[]} nums
  * @return {number}
  */
-export var removeDuplicates = function(nums) {};
+export const removeDuplicates = function(nums) {
+    return 0;
+};
