@@ -11,7 +11,7 @@
     "directory": "javascript"
   },
   "scripts": {
-    "exercism": "jest --noStackTrace exercism.test",
+    "exercism": "mocha exercism.test",
     "cci": "mocha cci.test",
     "leetcode": "mocha leetcode.test",
     "watch": "jest --watch ./*",
