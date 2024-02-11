@@ -105,7 +105,7 @@ export class StackLL {
      * on the top of the StackLL
      * @return {T}
      */
-    getTop() {
+    peek() {
         return this.top;
     }
 }
