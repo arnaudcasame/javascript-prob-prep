@@ -45,7 +45,7 @@ export class Stack {
      * on the top of the Stack
      * @return {T}
      */
-    getTop() {
+    peek() {
         return this.data_[this.data_.length-1];
     }
 }
@@ -105,7 +105,7 @@ export class StackLL {
      * on the top of the StackLL
      * @return {T}
      */
-    getTop() {
+    peek() {
         return this.top;
     }
 }
