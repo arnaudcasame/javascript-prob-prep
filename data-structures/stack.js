@@ -88,7 +88,7 @@ export class StackLL {
         const current = this.top;
         this.top = this.top.next;
         current.next = null;
-        return current;
+        return current.val;
     }
 
     /**
@@ -106,6 +106,6 @@ export class StackLL {
      * @return {T}
      */
     peek() {
-        return this.top;
+        return this.top.val;
     }
 }
