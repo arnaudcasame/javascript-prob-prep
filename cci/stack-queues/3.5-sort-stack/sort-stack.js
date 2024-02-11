@@ -7,5 +7,20 @@ import {Stack} from '../../../data-structures/stack.js';
  * @return {Stack} sorted stack
  */
 export const sortStack = function(stack) {
-    return new Stack();
+    const sorted = new Stack();
+    while (!stack.isEmpty()) {
+        const current = stack.pop();
+        if (sorted.isEmpty()) {
+            sorted.push(current);
+            continue;
+        } else if (current <= sorted.peek()) {
+            sorted.push(current);
+            continue;
+        }
+        while (sorted.peek() < current) {
+            stack.push(sorted.pop());
+        }
+        sorted.push(current);
+    }
+    return sorted;
 };
