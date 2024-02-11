@@ -8,24 +8,28 @@ export default describe('Queue Via Stacks', function() {
         queue.enqueue(1);
     });
 
-    xit('First peek should equal 1', function() {
+    it('First Peek should equal 1', function() {
         expect(queue.peek()).to.equal(1);
         queue.enqueue(2);
     });
 
-    xit('Second peek should equal 2', function() {
+    it('Second Peek after enqueuing 2 should equal 1', function() {
+        expect(queue.peek()).to.equal(1);
+    });
+
+    it('First Dequeue should equal 1', function() {
+        expect(queue.dequeue()).to.equal(1);
+    });
+
+    it('Third Peek should equal 2', function() {
         expect(queue.peek()).to.equal(2);
     });
 
-    xit('Popping the Queue should equal 2', function() {
+    it('Second Dequeue should equal 2', function() {
         expect(queue.dequeue()).to.equal(2);
     });
 
-    xit('Popping the Queue should equal 1', function() {
-        expect(queue.dequeue()).to.equal(2);
-    });
-
-    xit('At this point the Queue should be empty', function() {
-        expect(queue.empty()).to.be.true;
+    it('At this point the Queue should be empty', function() {
+        expect(queue.isEmpty()).to.be.true;
     });
 });
