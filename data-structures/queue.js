@@ -48,7 +48,7 @@ export class QueueLL {
         const item = this.front;
         this.front = this.front.next;
         item.next = null;
-        return item;
+        return item.val;
     }
 
     /**
@@ -57,7 +57,7 @@ export class QueueLL {
      * @return {T}
      */
     peek() {
-        return this.front;
+        return this.front ? this.front.val : null;
     }
 
     /**
