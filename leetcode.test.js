@@ -33,3 +33,4 @@ import './leetcode/path-crossing-1496/path-crossing.spec.js';
 import './leetcode/search-in-rotated-sorted-array-33/search-rotated-sorted-array.spec.js';
 import './leetcode/evaluate-reverse-polish-notation-150/evaluate-reverse-polish-notation.spec.js';
 import './leetcode/palindromic-substring-647/countSubstrings.spec.js';
+import './leetcode/majority-element-169/majority-element.spec.js';
