@@ -34,3 +34,4 @@ import './leetcode/search-in-rotated-sorted-array-33/search-rotated-sorted-array
 import './leetcode/evaluate-reverse-polish-notation-150/evaluate-reverse-polish-notation.spec.js';
 import './leetcode/palindromic-substring-647/countSubstrings.spec.js';
 import './leetcode/majority-element-169/majority-element.spec.js';
+import './leetcode/first-palindromic-string-in-array-2108/first-palindrome.spec.js';
