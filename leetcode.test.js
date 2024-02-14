@@ -35,3 +35,4 @@ import './leetcode/evaluate-reverse-polish-notation-150/evaluate-reverse-polish-
 import './leetcode/palindromic-substring-647/countSubstrings.spec.js';
 import './leetcode/majority-element-169/majority-element.spec.js';
 import './leetcode/first-palindromic-string-in-array-2108/first-palindrome.spec.js';
+import './leetcode/rearrange-array-elements-by-sign-2149/rearrange-array.spec.js';
