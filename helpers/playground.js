@@ -1,5 +1,6 @@
 import {StackLL} from '../data-structures/stack.js';
 import {QueueLL} from '../data-structures/queue.js';
+import './BST/bst-playground.js';
 
 
 // Creating a StackLL object
