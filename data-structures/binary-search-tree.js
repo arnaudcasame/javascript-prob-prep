@@ -36,17 +36,19 @@ export class BinarySearchTree {
      */
     insertInOrder(d) {
         if (d <= this.data) {
-            if (this.left === null) {
+            if (!this.left) {
                 this.setLeftChild(new BinarySearchTree(d));
             } else {
                 this.left.insertInOrder(d);
             }
+            this.size++;
         } else {
-            if (this.right === null) {
+            if (!this.right) {
                 this.setRightChild(new BinarySearchTree(d));
             } else {
                 this.right.insertInOrder(d);
             }
+            this.size++;
         }
     }
 
