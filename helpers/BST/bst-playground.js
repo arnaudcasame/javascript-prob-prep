@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import {BinarySearchTree} from '../../data-structures/binary-search-tree.js';
 
 const arr = [2, 4, 1, 8, 3, 5, 1, 3];
@@ -76,6 +77,15 @@ const depthFirstSearch = (root) => {
     }
     return result;
 };
+
+const minValue = function(root) {
+    if (!root) return Infinity;
+    const minLeft = minValue(root.left);
+    const minRight = minValue(root.right);
+    return Math.min(root.data, minLeft, minRight);
+};
+
+
 console.log('-----------------BFS------------------');
 console.log(breadthFirstSearch(bst));
 console.log('-----------------DFS------------------');
@@ -86,5 +96,7 @@ console.log('---------Pre Order Traversal----------');
 preOrderTraversal(bst);
 console.log('---------Post Order Traversal---------');
 postOrderTraversal(bst);
-console.log('--------------------------------------\n');
+console.log('----------Minimum Tree Value----------');
+console.log(minValue(bst));
+console.log('--------------------------------------\n'); 
 
