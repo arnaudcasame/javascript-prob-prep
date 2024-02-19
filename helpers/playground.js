@@ -1,5 +1,6 @@
 import {StackLL} from '../data-structures/stack.js';
 import {QueueLL} from '../data-structures/queue.js';
+import './BST/bst-playground.js';
 
 
 // Creating a StackLL object
@@ -9,13 +10,13 @@ stackLL.push(1);
 stackLL.push(2);
 stackLL.push(3);
 // Remove item from to of StackLL
-console.log('#StackLL: Push', stackLL.getTop().toString());
+console.log('#StackLL: Push', stackLL.peek().toString());
 console.log('#StackLL: Pop', stackLL.pop().toString());
-console.log('#StackLL: Print', stackLL.getTop().toString());
+console.log('#StackLL: Print', stackLL.peek().toString());
 // Push item onto the StackLL
 console.log('#StackLL: Pop', stackLL.pop().toString());
 stackLL.push(4);
-console.log('#StackLL: Push', stackLL.getTop().toString());
+console.log('#StackLL: Push', stackLL.peek().toString());
 // Check if StackLL isEmpty
 console.log('#StackLL is EMpty:', stackLL.isEmpty());
 // Pop to empty StackLL

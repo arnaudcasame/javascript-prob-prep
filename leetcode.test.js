@@ -40,3 +40,7 @@ import './leetcode/cherry-pickup-II-1463/cherry-pickup.spec.js';
 import './leetcode/sequential-digits-1291/sequential-digits.spec.js';
 import './leetcode/find-polygon-with-largest-perimeter-2971/largest-perimeter.spec.js';
 import './leetcode/least-number-unique-integers-1481/find-least-number-unique.spec.js';
+import './leetcode/furthest-building-u-can-reach-1642/furthest-building.spec.js';
+import './leetcode/meeting-rooms-III-2402/most-booked.spec.js';
+import './leetcode/partition-array-maximum-sum-1043/partition-array.spec.js';
+import './leetcode/power-of-two-231/power-of-two.spec.js';
