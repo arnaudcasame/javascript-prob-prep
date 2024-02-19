@@ -43,3 +43,4 @@ import './leetcode/least-number-unique-integers-1481/find-least-number-unique.sp
 import './leetcode/furthest-building-u-can-reach-1642/furthest-building.spec.js';
 import './leetcode/meeting-rooms-III-2402/most-booked.spec.js';
 import './leetcode/partition-array-maximum-sum-1043/partition-array.spec.js';
+import './leetcode/power-of-two-231/power-of-two.spec.js';
