@@ -9,7 +9,7 @@ for (let i = 1; i < arr.length; i++) {
     bst.insertInOrder(arr[i]);
 }
 
-// console.log(bst);
+console.log(bst);
 // console.log(bst.find(8));
 
 const visit = function(node) {
@@ -85,6 +85,15 @@ const minValue = function(root) {
     return Math.min(root.data, minLeft, minRight);
 };
 
+const maxPathSum = (root)=>{
+    if (!root) return -Infinity;
+    if (!root.left && !root.right) return root.data;
+    const maxLeft = maxPathSum(root.left);
+    const maxRight = maxPathSum(root.right);
+
+    return root.data + Math.max(maxRight, maxLeft);
+};
+
 
 console.log('-----------------BFS------------------');
 console.log(breadthFirstSearch(bst));
@@ -98,5 +107,7 @@ console.log('---------Post Order Traversal---------');
 postOrderTraversal(bst);
 console.log('----------Minimum Tree Value----------');
 console.log(minValue(bst));
-console.log('--------------------------------------\n'); 
+console.log('----------Maximum Tree Path-----------');
+console.log(maxPathSum(bst));
+console.log('--------------------------------------\n');
 
