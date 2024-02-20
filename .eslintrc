@@ -15,6 +15,7 @@
         "*.js"
       ],
       "rules": {
+        "linebreak-style": 0, // Turns off linebreak-style rule. 1- warning, 2- error
         "import/no-default-export": "off",
         "import/no-unresolved": "off",
         "indent": ["error", 4]
