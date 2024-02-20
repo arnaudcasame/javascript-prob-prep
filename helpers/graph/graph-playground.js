@@ -24,6 +24,7 @@ const graph = {
 
 /**
  * Traveses Treenode in a Depth First Search way
+ * in Iterative mode
  * @param {TreeNode} graph
  * @param {string} source
  */
@@ -37,7 +38,22 @@ const depthFirstSearchI = (graph, source) => {
 };
 
 /**
+ * Traveses Treenode in a Depth First Search way
+ * in Recursive mode
+ * @param {TreeNode} graph
+ * @param {string} source
+ */
+const depthFirstSearchR = (graph, source) => {
+    const current = graph[source];
+    current.print();
+    for (const neighbor of graph[source].getChildren()) {
+        depthFirstSearchR(graph, neighbor.name_);
+    }
+};
+
+/**
  * Traveses Treenode in a Breadth First Search way
+ * in Iterative mode
  * @param {TreeNode} graph
  * @param {string} source
  */
@@ -49,9 +65,11 @@ const breadthFirstSearchI = (graph, source)=>{
         queue.push(...current.getChildren());
     }
 };
-console.log('------------GRAPH DFS-------------');
+console.log('------------GRAPH DFS iter--------');
 depthFirstSearchI(graph, 'a');
-console.log('------------GRAPH BFS-------------');
+console.log('------------GRAPH BFS iter--------');
 breadthFirstSearchI(graph, 'a');
+console.log('------------GRAPH DFS recur-------');
+depthFirstSearchR(graph, 'a');
 console.log('----------------------------------');
 
