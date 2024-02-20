@@ -45,3 +45,4 @@ import './leetcode/meeting-rooms-III-2402/most-booked.spec.js';
 import './leetcode/partition-array-maximum-sum-1043/partition-array.spec.js';
 import './leetcode/power-of-two-231/power-of-two.spec.js';
 import './leetcode/missing-number-268/missing-number.spec.js';
+import './leetcode/median-two-sorted-arrays-4/median-two-sorted.spec.js';
