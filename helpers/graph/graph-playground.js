@@ -17,7 +17,7 @@ d.insertNode(f);
  * Traveses Treenode in a Depth First Search way
  * @param {TreeNode} node
  */
-const depthFirstSearch = (node)=>{
+const depthFirstSearchI = (node)=>{
     const stack = [node];
     while (stack.length > 0) {
         const current = stack.pop();
@@ -25,7 +25,22 @@ const depthFirstSearch = (node)=>{
         stack.push(...current.getChildren().reverse());
     }
 };
+
+/**
+ * Traveses Treenode in a Depth First Search way
+ * @param {TreeNode} node
+ */
+const breadthFirstSearchI = (node)=>{
+    const queue = [node];
+    while (queue.length > 0) {
+        const current = queue.shift();
+        current.print();
+        queue.push(...current.getChildren());
+    }
+};
 console.log('------------GRAPH DFS-------------');
-depthFirstSearch(a);
+depthFirstSearchI(a);
+console.log('------------GRAPH BFS-------------');
+breadthFirstSearchI(a);
 console.log('----------------------------------');
 
