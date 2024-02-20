@@ -17,7 +17,7 @@ export class TreeNode {
         /**
          * The list of tree nodes that are
          * children to the current TreeNode
-         * @type {TreeNode}
+         * @type {TreeNode[]}
          * @private
          */
         this.children_ = [];
