@@ -65,11 +65,61 @@ const breadthFirstSearchI = (graph, source)=>{
         queue.push(...current.getChildren());
     }
 };
+
+const f1 = new TreeNode('f');
+const g = new TreeNode('g');
+const h = new TreeNode('h');
+const i = new TreeNode('i');
+const j = new TreeNode('j');
+const k = new TreeNode('k');
+
+f1.insertNode(g);
+f1.insertNode(i);
+g.insertNode(h);
+i.insertNode(g);
+i.insertNode(k);
+j.insertNode(i);
+
+// const graph = {
+//     f: ['g', 'i'],
+//     g: ['h'],
+//     h: [],
+//     i: ['g', 'k'],
+//     j: ['i'],
+//     k: []
+// };
+
+const graph1 = {
+    f: f1,
+    g: g,
+    h: h,
+    i: i,
+    j: j,
+    k: k,
+};
+
+const hasPath = (graph, src, dst) => {
+    if (graph[src].name_ === graph[dst].name_) {
+        return true;
+    }
+    for (const neighbor of graph[src].getChildren()) {
+        if (hasPath(graph, neighbor.name_, dst)) {
+            return true;
+        }
+    }
+    return false;
+};
+
+
 console.log('------------GRAPH DFS iter--------');
 depthFirstSearchI(graph, 'a');
 console.log('------------GRAPH BFS iter--------');
 breadthFirstSearchI(graph, 'a');
 console.log('------------GRAPH DFS recur-------');
 depthFirstSearchR(graph, 'a');
+console.log('--------------Has Path------------');
+console.log('Has path from F to K: ', hasPath(graph1, 'f', 'k'));
+console.log('Has path from I to J: ', hasPath(graph1, 'i', 'j'));
+console.log('Has path from J to I: ', hasPath(graph1, 'j', 'i'));
 console.log('----------------------------------');
 
