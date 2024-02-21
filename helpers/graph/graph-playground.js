@@ -80,14 +80,14 @@ i.insertNode(g);
 i.insertNode(k);
 j.insertNode(i);
 
-// const graph = {
-//     f: ['g', 'i'],
-//     g: ['h'],
-//     h: [],
-//     i: ['g', 'k'],
-//     j: ['i'],
-//     k: []
-// };
+const graphObj = {
+    f: ['g', 'i'],
+    g: ['h'],
+    h: [],
+    i: ['g', 'k'],
+    j: ['i'],
+    k: [],
+};
 
 const graph1 = {
     f: f1,
@@ -98,12 +98,12 @@ const graph1 = {
     k: k,
 };
 
-const hasPath = (graph, src, dst) => {
+const hasPathR = (graph, src, dst) => {
     if (graph[src].name_ === graph[dst].name_) {
         return true;
     }
     for (const neighbor of graph[src].getChildren()) {
-        if (hasPath(graph, neighbor.name_, dst)) {
+        if (hasPathR(graph, neighbor.name_, dst)) {
             return true;
         }
     }
@@ -118,8 +118,8 @@ breadthFirstSearchI(graph, 'a');
 console.log('------------GRAPH DFS recur-------');
 depthFirstSearchR(graph, 'a');
 console.log('--------------Has Path------------');
-console.log('Has path from F to K: ', hasPath(graph1, 'f', 'k'));
-console.log('Has path from I to J: ', hasPath(graph1, 'i', 'j'));
-console.log('Has path from J to I: ', hasPath(graph1, 'j', 'i'));
+console.log('Has path from F to K: ', hasPathR(graph1, 'f', 'k'));
+console.log('Has path from I to J: ', hasPathR(graph1, 'i', 'j'));
+console.log('Has path from J to I: ', hasPathR(graph1, 'j', 'i'));
 console.log('----------------------------------');
 
