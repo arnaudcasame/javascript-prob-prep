@@ -1,0 +1,1 @@
+export const isPermutatedPalindrome = function(s){};

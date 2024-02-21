@@ -1,22 +1,29 @@
 {
   "root": true,
-  "extends": "@exercism/eslint-config-javascript",
+  "extends": ["eslint:recommended", "google"],
   "env": {
-    "jest": true
+    "node": true,
+    "mocha": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2015
   },
   "overrides": [
     {
       "files": [
-        "*.spec.js"
+        "*.js"
       ],
       "rules": {
+        "linebreak-style": 0, // Turns off linebreak-style rule. 1- warning, 2- error
         "import/no-default-export": "off",
-        "import/no-unresolved": "off"
+        "import/no-unresolved": "off",
+        "indent": ["error", 4]
       },
       "excludedFiles": [
         "custom.spec.js"
       ],
-      "extends": "@exercism/eslint-config-javascript/maintainers"
+      "extends": ["eslint:recommended", "google"]
     }
   ]
 }
