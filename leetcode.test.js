@@ -47,3 +47,5 @@ import './leetcode/power-of-two-231/power-of-two.spec.js';
 import './leetcode/missing-number-268/missing-number.spec.js';
 import './leetcode/median-two-sorted-arrays-4/median-two-sorted.spec.js';
 import './leetcode/bitwise-AND-numbers-range-201/bitwise-and-numbers.spec.js';
+import './leetcode/find-the town-judge-997/find-judge.spec.js';
+import './leetcode/cheapest-flights-within-K-stops-787/find-cheapest-price.spec.js';
