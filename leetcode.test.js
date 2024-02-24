@@ -50,3 +50,4 @@ import './leetcode/bitwise-AND-numbers-range-201/bitwise-and-numbers.spec.js';
 import './leetcode/find-the town-judge-997/find-judge.spec.js';
 import './leetcode/cheapest-flights-within-K-stops-787/find-cheapest-price.spec.js';
 import './leetcode/minimum-window-substring-76/minimum-window.spec.js';
+import './leetcode/find-all-people-with-secret-2092/find-people.spec.js';
