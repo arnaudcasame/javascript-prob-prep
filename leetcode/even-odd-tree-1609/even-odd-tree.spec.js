@@ -14,4 +14,8 @@ export default describe('#1609: Even Odd Tree', function() {
     xit('Should return false for tree', function() {
         expect(isEvenOddTree([5, 9, 1, 3, 5, 7])).to.be.false;
     });
+
+    xit('Should return false for tree', function() {
+        expect(isEvenOddTree([2, 12, 8, 5, 9, null, null, 18, 16])).to.be.false;
+    });
 });
