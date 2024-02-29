@@ -55,3 +55,4 @@ import './leetcode/greastest-common-divisor-traversal-2709/can-traverse-all-pair
 import './leetcode/same-tree-100/same-tree.spec.js';
 import './leetcode/diameter-of-binary-tree-543/diameter-binary-tree.spec.js';
 import './leetcode/find-bottom-left-tree-value-513/find-bottom-left -tree-value.spec.js';
+import './leetcode/even-odd-tree-1609/even-odd-tree.spec.js';
