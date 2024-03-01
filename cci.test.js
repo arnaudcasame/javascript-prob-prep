@@ -6,7 +6,7 @@ import './cci/palindrome-permutation/palindrome-permutation.spec.js';
 import './cci/one-away/one-away.spec.js';
 import './cci/string-compression/string-compressiion.spec.js';
 import './cci/string-rotation/string-rotation.spec.js';
-import './cci/remove-duplicates-linked-list-2.1/remove-dups.spec.js';
+import './cci/linked-list/2.1-remove-duplicates/remove-dups.spec.js';
 import './cci/linked-list/2.2-kth-to-last/kth-to-last.spec.js';
 import './cci/linked-list/2.3-delete-middle-node/delete-middle-node.spec.js';
 import './cci/linked-list/2.4-partition/partition.spec.js';
