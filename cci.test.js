@@ -22,3 +22,4 @@ import './cci/stack-queues/3.5-sort-stack/sort-stack.spec.js';
 import './cci/stack-queues/3.6-animal-shelter/animal-shelter.spec.js';
 import './cci/trees-graphs/4.1-route-between-nodes/route-between-nodes.spec.js';
 import './cci/trees-graphs/4.2-minimal-tree/minimal-tree.spec.js';
+import './cci/trees-graphs/4.3-list-of-depths/list-of-depths.spec.js';
