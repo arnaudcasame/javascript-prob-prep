@@ -1,6 +1,6 @@
+import './cci/common-set-members/common-set-members.spec.js';
 import './cci/is-unique/is-unique.spec.js';
 import './cci/check-permutation/check-permutation.spec.js';
-import './cci/common-set-members/common-set-members.spec.js';
 import './cci/urlify/urlify.spec.js';
 import './cci/palindrome-permutation/palindrome-permutation.spec.js';
 import './cci/one-away/one-away.spec.js';
