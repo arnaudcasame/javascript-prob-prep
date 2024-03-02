@@ -1,7 +1,7 @@
 import {isUnique, isUniqueHT} from './is-unique.js';
 import {expect} from 'chai';
 
-export default describe('Unique Character String Verifier', () => {
+export default describe('#1.1: Is Unique', () => {
     xit('Should return true for abcdef', () => {
         expect(isUnique('abcdef')).to.be.true;
     });
