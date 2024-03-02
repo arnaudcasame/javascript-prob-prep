@@ -6,7 +6,11 @@
  * @param {Array<number>} arr2 Second set of numbers
  * @return {number[]} The common elements of both sets
  */
-export const commonSetMembers = function(arr1, arr2){}
+export const commonSetMembers = function(arr1, arr2) {
+    return [];
+};
 
 
-export const commonSetElements = function(arr1, arr2){}
+export const commonSetElements = function(arr1, arr2) {
+    return [];
+};
