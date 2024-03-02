@@ -1,11 +1,12 @@
-import './cci/common-set-members/common-set-members.spec.js';
-import './cci/is-unique/is-unique.spec.js';
-import './cci/check-permutation/check-permutation.spec.js';
-import './cci/urlify/urlify.spec.js';
-import './cci/palindrome-permutation/palindrome-permutation.spec.js';
-import './cci/one-away/one-away.spec.js';
-import './cci/string-compression/string-compressiion.spec.js';
-import './cci/string-rotation/string-rotation.spec.js';
+/* eslint-disable max-len */
+import './cci/strings-arrays/common-set-members/common-set-members.spec.js';
+import './cci/strings-arrays/is-unique/is-unique.spec.js';
+import './cci/strings-arrays/check-permutation/check-permutation.spec.js';
+import './cci/strings-arrays/urlify/urlify.spec.js';
+import './cci/strings-arrays/palindrome-permutation/palindrome-permutation.spec.js';
+import './cci/strings-arrays/one-away/one-away.spec.js';
+import './cci/strings-arrays/string-compression/string-compressiion.spec.js';
+import './cci/strings-arrays/string-rotation/string-rotation.spec.js';
 import './cci/linked-list/2.1-remove-duplicates/remove-dups.spec.js';
 import './cci/linked-list/2.2-kth-to-last/kth-to-last.spec.js';
 import './cci/linked-list/2.3-delete-middle-node/delete-middle-node.spec.js';
