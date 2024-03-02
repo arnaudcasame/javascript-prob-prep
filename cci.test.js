@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import './cci/strings-arrays/common-set-members/common-set-members.spec.js';
 import './cci/strings-arrays/is-unique/is-unique.spec.js';
-import './cci/strings-arrays/check-permutation/check-permutation.spec.js';
+import './cci/strings-arrays/1.2-check-permutation/check-permutation.spec.js';
 import './cci/strings-arrays/urlify/urlify.spec.js';
 import './cci/strings-arrays/palindrome-permutation/palindrome-permutation.spec.js';
 import './cci/strings-arrays/one-away/one-away.spec.js';
