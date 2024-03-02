@@ -1,11 +1,12 @@
-import { CheckPermHT } from './check-permutation.js';
+import {checkPermHT} from './check-permutation.js';
+import {expect} from 'chai';
 
 export default describe('Check Permutation', () => {
     xit('Should return true for wifbwedi <---> iwfedbiw', () => {
-        expect(CheckPermHT('wifbwedi', 'iwfedbiw')).toEqual(true);
+        expect(checkPermHT('wifbwedi', 'iwfedbiw')).to.be.true;
     });
 
     xit('Should return false for vbsdiuefref <---> diuhbguhwoh', () => {
-        expect(CheckPermHT('vbsdiuefref', 'diuhbguhwoh')).toEqual(false);
+        expect(checkPermHT('vbsdiuefref', 'diuhbguhwoh')).to.be.false;
     });
 });

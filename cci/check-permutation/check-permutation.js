@@ -10,4 +10,4 @@
  * 4) Two strings that are permutations should have the same characters, but in different orders. Can you make the orders the same?
  */
 
-export function CheckPermHT (s1, s2) {}
+export function checkPermHT (s1, s2) {}
