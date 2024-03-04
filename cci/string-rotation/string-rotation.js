@@ -1,1 +1,0 @@
-export const isRotation = function(s1, s2){}
