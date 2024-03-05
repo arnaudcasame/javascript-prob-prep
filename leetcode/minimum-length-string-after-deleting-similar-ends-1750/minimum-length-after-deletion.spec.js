@@ -14,4 +14,12 @@ export default describe('#1750: Minimum Length of String after Deleting Similar 
     xit('Should return 3 for (aabccabba)', function() {
         expect(minimumLength('aabccabba')).to.equal(3);
     });
+
+    xit('Should return 0 for (abbbbbbbbbbbbbbbbbbba)', function() {
+        expect(minimumLength('abbbbbbbbbbbbbbbbbbba')).to.equal(0);
+    });
+
+    xit('Should return 1 for (bbbbbbbbbbbbbbbbbbbbbbbbbbbabbbbbbbbbbbbbbbccbcbcbccbbabbb)', function() {
+        expect(minimumLength('bbbbbbbbbbbbbbbbbbbbbbbbbbbabbbbbbbbbbbbbbbccbcbcbccbbabbb')).to.equal(1);
+    });
 });
