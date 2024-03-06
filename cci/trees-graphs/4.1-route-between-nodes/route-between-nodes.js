@@ -8,5 +8,13 @@
  * @return {boolean}
  */
 export const routeBetweenNodes = function(graph, source, destination) {
+    const stack = [source];
+    while (stack.length > 0) {
+        const current = stack.pop();
+        if (current === destination) {
+            return true;
+        }
+        current && stack.push(...graph[current]);
+    }
     return false;
 };
