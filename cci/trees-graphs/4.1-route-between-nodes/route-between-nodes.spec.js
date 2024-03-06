@@ -38,7 +38,7 @@ export default describe('#4.1: Route Between Nodes', function() {
         expect(routeBetweenNodes(graph, 'i', 'h')).to.be.true;
     });
 
-    xit('Should return true for: v <---> h', function() {
+    xit('Should return false for: v <---> h', function() {
         const graph = {
             v: ['x', 'w'],
             w: [],
@@ -46,7 +46,7 @@ export default describe('#4.1: Route Between Nodes', function() {
             y: ['z'],
             z: [],
         };
-        expect(routeBetweenNodes(graph, 'v', 'h')).to.be.true;
+        expect(routeBetweenNodes(graph, 'v', 'h')).to.be.false;
     });
 
     xit('Should return false for: v <---> z', function() {
