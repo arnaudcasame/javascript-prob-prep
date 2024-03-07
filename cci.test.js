@@ -25,3 +25,5 @@ import './cci/trees-graphs/4.1-route-between-nodes/route-between-nodes.spec.js';
 import './cci/trees-graphs/4.2-minimal-tree/minimal-tree.spec.js';
 import './cci/trees-graphs/4.3-list-of-depths/list-of-depths.spec.js';
 import './cci/trees-graphs/4.4-check-balanced/check-tree-is-balanced.spec.js';
+import './cci/trees-graphs/4.5-BST-validate/validateBST.spec.js';
+import './cci/trees-graphs/4.6-successor/successor.spec.js';
