@@ -63,3 +63,4 @@ import './leetcode/bag-of-tokens-948/bag-of-tokens.spec.js';
 import './leetcode/minimum-length-string-after-deleting-similar-ends-1750/minimum-length-after-deletion.spec.js';
 import './leetcode/linked-list-cycle-141/linked-list-cycle.spec.js';
 import './leetcode/middle-of-the-linked-list-876/middle-linked-list.spec.js';
+import './leetcode/count-elements-w-max-frequency-3005/count-elements-max-freq.spec.js';
