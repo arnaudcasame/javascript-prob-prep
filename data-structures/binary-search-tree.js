@@ -99,4 +99,14 @@ export class BinarySearchTree {
     getSize() {
         return this.size;
     }
+
+    /**
+     * Return string representation of the current tree
+     * @return {string}
+     */
+    toString() {
+        return `{data: ${this.data}, 
+            left: ${this.left ? this.left.toString() : null},
+            right: ${this.right ? this.right.toString() : null}}`;
+    }
 }
