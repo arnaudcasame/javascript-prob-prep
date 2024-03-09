@@ -21,6 +21,6 @@ export const maxFrequencyElements = function(nums) {
             count += lastFrequence;
         }
     }
-    console.log(bucket);
+    // console.log(bucket);
     return count;
 };

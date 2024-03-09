@@ -19,7 +19,7 @@ export default describe('#1750: Minimum Length of String after Deleting Similar 
         expect(minimumLength('abbbbbbbbbbbbbbbbbbba')).to.equal(0);
     });
 
-    xit('Should return 1 for (bbbbbbbbbbbbbbbbbbbbbbbbbbbabbbbbbbbbbbbbbbccbcbcbccbbabbb)', function() {
+    it('Should return 1 for (bbbbbbbbbbbbbbbbbbbbbbbbbbbabbbbbbbbbbbbbbbccbcbcbccbbabbb)', function() {
         expect(minimumLength('bbbbbbbbbbbbbbbbbbbbbbbbbbbabbbbbbbbbbbbbbbccbcbcbccbbabbb')).to.equal(1);
     });
 });
