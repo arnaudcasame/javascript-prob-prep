@@ -29,3 +29,4 @@ import './cci/trees-graphs/4.5-BST-validate/validateBST.spec.js';
 import './cci/trees-graphs/4.6-successor/successor.spec.js';
 import './cci/trees-graphs/4.7-build-order/build-order.spec.js';
 import './cci/trees-graphs/4.8-first-common-ancestor/first-common-ancestor.spec.js';
+import './cci/trees-graphs/4.9-BST-sequences/bst-sequences.spec.js';
