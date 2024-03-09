@@ -64,3 +64,4 @@ import './leetcode/minimum-length-string-after-deleting-similar-ends-1750/minimu
 import './leetcode/linked-list-cycle-141/linked-list-cycle.spec.js';
 import './leetcode/middle-of-the-linked-list-876/middle-linked-list.spec.js';
 import './leetcode/count-elements-w-max-frequency-3005/count-elements-max-freq.spec.js';
+import './leetcode/minimum-common-value-2540/minimum-common-value.spec.js';
