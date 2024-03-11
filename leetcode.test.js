@@ -67,3 +67,4 @@ import './leetcode/count-elements-w-max-frequency-3005/count-elements-max-freq.s
 import './leetcode/minimum-common-value-2540/minimum-common-value.spec.js';
 import './leetcode/reverse-words-in-string-151/reverse-words-in-string.spec.js';
 import './leetcode/intersection-of-two-arrays-349/intersection.spec.js';
+import './leetcode/string-compression-443/string-compression.spec.js';
