@@ -4,9 +4,11 @@ import stringCompression from './string-compression.js';
 import sinon from 'sinon';
 
 export default describe('#443: String Compression', function() {
-    const spy = sinon.spy(stringCompression, 'compress');
+    let spy;
 
-    beforeEach(()=>{});
+    beforeEach(()=>{
+        spy = sinon.spy(stringCompression, 'compress');
+    });
 
     xit('Should alter argument to [\'a\',\'2\',\'b\',\'2\',\'c\',\'3\']', function() {
         // Argument to the Compress function
@@ -41,5 +43,7 @@ export default describe('#443: String Compression', function() {
         expect(call.args[0]).to.deep.equal(['a', 'b', '1', '2']);
     });
 
-    afterEach(() => {});
+    afterEach(() => {
+        spy.restore();
+    });
 });
