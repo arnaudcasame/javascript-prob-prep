@@ -69,3 +69,4 @@ import './leetcode/reverse-words-in-string-151/reverse-words-in-string.spec.js';
 import './leetcode/intersection-of-two-arrays-349/intersection.spec.js';
 import './leetcode/string-compression-443/string-compression.spec.js';
 import './leetcode/custom-sort-string-791/custom-sort.spec.js';
+import './leetcode/remove-zero-sum-consecutive-nodes-from-ll-1171/remove-zero-sum.spec.js';
