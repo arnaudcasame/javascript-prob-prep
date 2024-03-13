@@ -3,5 +3,7 @@
  * @return {number}
  */
 export const pivotInteger = function(n) {
-    return 0;
+    const x = Math.sqrt((n * (n+1))/2);
+
+    return x%1 !== 0 ? -1 : x;
 };
