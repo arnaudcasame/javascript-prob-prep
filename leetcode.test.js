@@ -71,3 +71,4 @@ import './leetcode/string-compression-443/string-compression.spec.js';
 import './leetcode/custom-sort-string-791/custom-sort.spec.js';
 import './leetcode/remove-zero-sum-consecutive-nodes-from-ll-1171/remove-zero-sum.spec.js';
 import './leetcode/find-the pivot-integer-2485/find-pivot-integer.spec.js';
+import './leetcode/binary-subarrays-with-sum-930/binary-subarrays-sum.spec.js';
