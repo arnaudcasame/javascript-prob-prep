@@ -10,6 +10,10 @@ export default describe('#334: Increasing Triplet Subsequence', function() {
         expect(increasingTriplet([5, 4, 3, 2, 1])).to.be.false;
     });
 
+    it('Should return false for [2,4,-2,-3]', function() {
+        expect(increasingTriplet([2, 4, -2, -3])).to.be.false;
+    });
+
     it('Should return true for [2,1,5,0,4,6]', function() {
         expect(increasingTriplet([2, 1, 5, 0, 4, 6])).to.be.true;
     });
