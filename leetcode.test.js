@@ -73,3 +73,4 @@ import './leetcode/remove-zero-sum-consecutive-nodes-from-ll-1171/remove-zero-su
 import './leetcode/find-the pivot-integer-2485/find-pivot-integer.spec.js';
 import './leetcode/binary-subarrays-with-sum-930/binary-subarrays-sum.spec.js';
 import './leetcode/increasing-triplet-subsequence-334/increasing-triplet-subsequence.spec.js';
+import './leetcode/is-subsequence-392/is-subsequence.spec.js';
