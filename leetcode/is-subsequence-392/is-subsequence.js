@@ -4,5 +4,13 @@
  * @return {boolean}
  */
 export const isSubsequence = function(s, t) {
-    return false;
+    let [i, j] = [0, 0];
+    while (i < t.length) {
+        if (t[i] === s[j]) {
+            j++;
+        }
+        i++;
+    }
+    // console.log();
+    return j === s.length;
 };
