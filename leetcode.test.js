@@ -74,3 +74,5 @@ import './leetcode/find-the pivot-integer-2485/find-pivot-integer.spec.js';
 import './leetcode/binary-subarrays-with-sum-930/binary-subarrays-sum.spec.js';
 import './leetcode/increasing-triplet-subsequence-334/increasing-triplet-subsequence.spec.js';
 import './leetcode/is-subsequence-392/is-subsequence.spec.js';
+import './leetcode/container-with-most-water-11/container-with-most-water.spec.js';
+import './leetcode/max-number-K-sum-pairs-1679/max-num-of-k.spec.js';
