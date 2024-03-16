@@ -9,7 +9,7 @@ export default describe('#283. Move Zeroes', function() {
         spy = sinon.spy(movement, 'moveZeroes');
     });
 
-    xit('Should alter argument to [0,1,0,3,12]', function() {
+    it('Should alter argument to [0,1,0,3,12]', function() {
         // Argument to the Compress function
         const arg = [0, 1, 0, 3, 12];
 
@@ -20,7 +20,7 @@ export default describe('#283. Move Zeroes', function() {
         expect(call.args[0]).to.deep.equal([1, 3, 12, 0, 0]);
     });
 
-    xit('Should alter argument to [0]', function() {
+    it('Should alter argument to [0]', function() {
         // Argument to the Compress function
         const arg = [0];
 
@@ -32,7 +32,7 @@ export default describe('#283. Move Zeroes', function() {
     });
 
 
-    xit('Should alter argument to [4, 2, 4, 0, 0, 3, 0, 5, 1, 0]', function() {
+    it('Should alter argument to [4, 2, 4, 0, 0, 3, 0, 5, 1, 0]', function() {
         // Argument to the Compress function
         const arg = [4, 2, 4, 0, 0, 3, 0, 5, 1, 0];
 
@@ -44,7 +44,7 @@ export default describe('#283. Move Zeroes', function() {
     });
 
 
-    xit('Should alter argument to [0,0,1]', function() {
+    it('Should alter argument to [0,0,1]', function() {
         // Argument to the Compress function
         const arg = [0, 0, 1];
 
@@ -56,7 +56,7 @@ export default describe('#283. Move Zeroes', function() {
     });
 
 
-    xit('Should alter argument to [2,1]', function() {
+    it('Should alter argument to [2,1]', function() {
         // Argument to the Compress function
         const arg = [2, 1];
 
