@@ -56,6 +56,18 @@ export default describe('#283. Move Zeroes', function() {
     });
 
 
+    xit('Should alter argument to [2,1]', function() {
+        // Argument to the Compress function
+        const arg = [2, 1];
+
+        // Compress function using argument
+        movement.moveZeroes(arg);
+
+        const call = spy.getCall(0);
+        expect(call.args[0]).to.deep.equal([2, 1]);
+    });
+
+
     afterEach(() => {
         spy.restore();
     });
