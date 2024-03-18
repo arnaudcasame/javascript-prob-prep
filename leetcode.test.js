@@ -79,3 +79,4 @@ import './leetcode/max-number-K-sum-pairs-1679/max-num-of-k.spec.js';
 import './leetcode/move-zeroes-283/move-zeroes.spec.js';
 import './leetcode/maximum-number-of-vowels-in-substring-1456/maximum-number-of-vowels.spec.js';
 import './leetcode/max-consecutive-ones-III-1004/max-consecutive.spec.js';
+import './leetcode/longest-subarray-ones-after-deleting-one-element-1493/longest-subarray-of-ones.spec.js';
