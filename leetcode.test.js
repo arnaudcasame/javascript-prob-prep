@@ -77,3 +77,4 @@ import './leetcode/is-subsequence-392/is-subsequence.spec.js';
 import './leetcode/container-with-most-water-11/container-with-most-water.spec.js';
 import './leetcode/max-number-K-sum-pairs-1679/max-num-of-k.spec.js';
 import './leetcode/move-zeroes-283/move-zeroes.spec.js';
+import './leetcode/maximum-number-of-vowels-in-substring-1456/maximum-number-of-vowels.spec.js';
