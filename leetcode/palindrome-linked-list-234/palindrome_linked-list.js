@@ -11,5 +11,22 @@ import {ListNode} from '../../data-structures/list-node.js';
  * @return {boolean}
  */
 export const isPalindrome = function(head) {
-    return false;
+    let current = head;
+    let reverse = null;
+
+    while (current) {
+        const node = new ListNode(current.val);
+        node.next = reverse;
+        reverse = node;
+        current = current.next;
+    }
+
+    while (reverse && head) {
+        if (reverse.val !== head.val) {
+            return false;
+        }
+        reverse = reverse.next;
+        head = head.next;
+    }
+    return true;
 };
