@@ -10,7 +10,7 @@ export default describe('#143: Reorder List', function() {
         spy = sinon.spy(ordering, 'reorderList');
     });
 
-    xit('Should alter the argument to equal [1,4,2,3]', function() {
+    it('Should alter the argument to equal [1,4,2,3]', function() {
         const head = ListNode.fromArray([1, 2, 3, 4]);
         ordering.reorderList(head);
 
@@ -18,7 +18,7 @@ export default describe('#143: Reorder List', function() {
         expect(ListNode.toArray(call.args[0])).to.deep.equal([1, 4, 2, 3]);
     });
 
-    xit('Should alter the argument to equal [1,5,2,4,3]', function() {
+    it('Should alter the argument to equal [1,5,2,4,3]', function() {
         const head = ListNode.fromArray([1, 2, 3, 4, 5]);
         ordering.reorderList(head);
 
