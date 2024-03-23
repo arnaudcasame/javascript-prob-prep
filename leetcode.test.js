@@ -82,3 +82,4 @@ import './leetcode/max-consecutive-ones-III-1004/max-consecutive.spec.js';
 import './leetcode/longest-subarray-ones-after-deleting-one-element-1493/longest-subarray-of-ones.spec.js';
 import './leetcode/maximum-average-subarray-I-643/maximum-average-subarray.spec.js';
 import './leetcode/palindrome-linked-list-234/palindrome_linked-list.spec.js';
+import './leetcode/reorder-list-143/reorder-list.spec.js';
