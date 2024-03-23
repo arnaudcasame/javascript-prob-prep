@@ -19,7 +19,9 @@ ListNode.toArray =  function(listNode){
     const arr = [];
     while(listNode){
         arr.push(listNode.val ?? listNode.data);
+        listNode = listNode.next;
     }
+    return arr;
 };
 
 ListNode.fromArray = function(arr){
